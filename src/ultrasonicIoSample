@@ -1,0 +1,21 @@
+// #include <Wire.h>
+// #include <M5Core2.h>
+// #include <Unit_Sonic.h>
+
+// SONIC_IO sensor;
+
+// void setup() {
+//     M5.begin();  
+//     sensor.begin(32, 33);
+// }
+
+// int point      = 0;
+// int last_point = 0;
+
+// void loop() {
+//     // canvas.scroll(4);
+//     float Distance = sensor.getDistance();
+//     Serial.printf("Distance: %.2fmm\r\n", Distance);
+//     point = map((int)Distance, 20, 4500, 10, 180);
+//     last_point = point;
+// }
